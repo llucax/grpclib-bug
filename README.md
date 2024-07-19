@@ -23,3 +23,7 @@ A repository demonstating an issue with grpclib interacting with tonic using IPv
 
 * `python -m grpc_tools.protoc -I .. --python_out=. --grpc_python_out=. ../helloworld.proto` `
 * `python -m pip install "betterproto[compiler]==2.0.0b6" grpcio-tools grpcio protobuf`
+
+## Network captures
+
+Network captures with working and failing cases are avaiable in the `cap/` directory.
